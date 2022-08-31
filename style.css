@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+@font-face {
+  font-family: "Satisfy";
+  src: url("../font/Satisfy_Font_Family_(Fontmirror)/Satisfy Regular 400.ttf");
+}
+.main-container {
+  min-height: 100vh;
+}
+.main-container .navbar-ctn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: rgb(9, 197, 9);
+  color: #fff;
+  height: 70px;
+}
+.main-container .navbar-ctn a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.main-container .navbar-ctn a:hover {
+  text-decoration: underline;
+}
+.main-container .nav-title {
+  font-size: 35px;
+  font-family: "Satisfy", sans-serif;
+}
+.main-container .nav-btn {
+  border: 1ps solis gray;
+  padding: 10px 15px;
+  background-color: gray;
+  border-radius: 3px;
+}
+.main-container .nav-btn:hover {
+  transform: scale(1.05);
+}
+.main-container .main-section {
+  background-color: #ced4da;
+  height: 100%;
+  padding: 20px;
+}
+.main-container .grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 25px;
+  margin-bottom: 50px;
+}
+.main-container .card-ctn {
+  width: 100%;
+  height: 100%;
+  background-color: #f2f2f2;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  margin-bottom: 30px;
+}
+.main-container .card-ctn:hover {
+  box-shadow: 0px 9px 18px 0px rgba(0, 0, 0, 0.2);
+}
+.main-container .card-img {
+  width: 100%;
+  height: 50%;
+  transition: all ease-in-out 0.4s;
+  overflow: hidden;
+  border-radius: 7px 7px 0 0;
+}
+.main-container .card-img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 7px 7px 0 0;
+  transition: all ease-in-out 0.4s;
+  overflow: hidden;
+}
+.main-container .card-img img:hover {
+  transform: scale(1.3);
+}
+.main-container .card-content {
+  width: 100%;
+  height: 50%;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-container .card-content p {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 5px;
+  font-family: "Satisfy", sans-serif;
+}
+.main-container .card-content .card-btn {
+  border-radius: 4px;
+  background-color: rgb(9, 197, 9);
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 18px;
+  margin-top: 5px;
+  transition: all ease-in-out 0.4s;
+}
+.main-container .card-content .card-btn:hover {
+  transform: scale(1.1);
+}
+.main-container .card-content .card-btn a {
+  text-decoration: none;
+  color: #fff;
+}
+.main-container .swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: #000;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.2);
+}
+.main-container .swiper-pagination-bullet-active {
+  color: #fff;
+  background: #007aff;
+}
+
+/*# sourceMappingURL=style.css.map */

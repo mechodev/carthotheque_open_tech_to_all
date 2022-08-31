@@ -1,0 +1,4 @@
+/***
+To start the project be sure that you have npm installed in your device or
+ computer and run : npm start
+***/
